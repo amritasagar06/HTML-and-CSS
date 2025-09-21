@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* class selector */
+        .pink{
+            color: pink;
+        }
+        /* id selector */
+        #unique{
+            color: yellow;
+        }
+        /* child selector */
+        div > p{
+            color: blue;
+        }
+        /* decendant selector */
+        div p {
+            color: red;
+            background-color: yellow;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Psuedo selector */
+        a:visited{
+            color: red;
+        }
+        a:link{
+            color: greenyellow;
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        hello , how are you?
+    </div>
+    <div class="pink">
+        this shld be pink color
+    </div>
+    <div id="unique">
+        this should be yellow color
+        <p>hello this is the child</p>
+    </div>
+    <div>
+        <span>
+            <p>hello this is the decendant</p>
+        </span>
+    </div>
+    <div>
+        <a href="https://www.google.com">GO TO GOOGLE</a>
+    </div>
+    
+</body>
+</html>
