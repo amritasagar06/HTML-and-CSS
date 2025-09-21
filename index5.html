@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media Player</title>
+</head>
+<body>
+    <header>
+    <h1>PURE HTML MEDIA PLAYER</h1>
+    <nav>
+        <ul>
+            <img src="welcome.png" alt="welcome img">
+            <li><a href="https://www.youtube.com">Visit here to find more videos</a></li>
+            <li><a href="https://www.spotify.com">Visit here to find more audios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>TELL US ABOUT YOUSELF (:</h2>
+        <div>
+            <img src="victory.png" alt="victory img">
+        </div>
+
+        <form action="/submit" method="post">
+            <div>
+                <label for="name">What is your name? (:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="age">What is your age?</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div>
+                <!-- Radio buttons for gender -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </div>
+
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit">
+        </form>
+        <table border="5">
+            <caption>no. of audios and videos</caption>
+            <h3>Something about the content in our page</h3>
+        <tr>
+            <th>NO. OF VIDEOS</th>
+            <th>NO. OF AUDIOS</th>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>6</td>
+        </tr>
+        </table>
+        <h2>INTERESTING VIDEOS</h2>
+        <div>
+            <video src="video.mp4" controls></video>
+        </div>
+        <div>
+            <iframe width="602" height="345" src="https://www.youtube.com/embed/5xFRg_TzlAg?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w" title="Exercise 1 - Pure HTML Media Player | Sigma Web Development Course - Tutorial #12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div>
+            <video src="video.mp4" controls></video>
+        </div>
+        <div>
+            <iframe width="602" height="345" src="https://www.youtube.com/embed/5xFRg_TzlAg?list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w" title="Exercise 1 - Pure HTML Media Player | Sigma Web Development Course - Tutorial #12" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h2>INTERESTING AUDIOS</h2>
+        <div>
+            <audio src="audio.mp3" controls></audio>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2NGhKPZdZk2pPZinWphTzh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+        <div>
+            <audio src="audio.mp3" controls></audio>
+        </div>
+        <div>
+            <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2WkuESwWyJ1txlbXnDIwPm?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </main>
+</header>
+
+<footer>
+    <div>
+        <h5>Leave a comment for us (:</h5>
+        <form action="/submit">
+        <textarea name="comment" rows="4" cols="50">What do you think of our page?</textarea>
+    </div>
+
+    <div>
+        <h5>what rating you want to give us?</h5>
+        <select name="RATING">
+            <option value="5">5</option>
+            <option value="4">4</option>
+            <option value="3">3</option>
+            <option value="2">2</option>
+            <option value="1">1</option>
+        </select>
+    </div>
+    <div>
+        <h5>Submit here</h5>
+        <input type="submit" value="Submit">
+    </div>
+      
+</form>
+    <p>Copyright 2025</p>
+    <img src="thanks.png" alt="thank you">
+</footer>
+
+    
+</body>
+</head>
