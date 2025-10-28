@@ -1,1 +1,40 @@
+<!-- CSS VARIABLES -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
 
+         :root{    /*a variable in css */
+
+            --color: rgb(255, 255, 109);
+            --secolor: yellow;
+            --defpad: 4px;
+            --defbor: 4px solid black;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color: var(--color);
+        }
+        .container{
+            background-color: var(--secolor);
+            padding: var(--defpad);
+            border: var(--defbor);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 34px;
+        }
+        ul li:first-child{
+            --color: rgb(255, 109, 172);
+            background-color: var(--color);
+
+        }
