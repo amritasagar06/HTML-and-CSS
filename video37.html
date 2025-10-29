@@ -24,3 +24,26 @@
             z-index: 1000;
             /* keeps it above other elements */
         }
+         .parentbox {
+            width: 85%;
+            height: 500px;
+            border: 3px solid black;
+            display: flex;
+            /* this arranges children side by side */
+            justify-content: center;
+            /* centers horizontally inside container */
+            align-items: center;
+            /* centers vertically inside container */
+            gap: 100px;
+            /* space between the two boxes */
+            background-color: lightgoldenrodyellow;
+            margin: 50px auto;
+            /* centers the container itself on the page */
+        }
+
+        .child {
+            width: 450px;
+            height: 450px;
+            background-color: lightcoral;
+            border: 2px solid black;
+        }
