@@ -6,3 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox property in css</title>
     <style>
+.container{
+            border: 2px solid green;
+            display: flex;
+            height: 80vh;
+            justify-content: center;
+            /* centers the content horizontally */
+            align-items: center;
+            /* centers the items vertically */
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            /* it is used whem we have multiple lines */
+            flex-flow: row wrap-reverse  ;
+            gap: 10px;
+            row-gap: 12px;
+            column-gap: 10px;
+        }
